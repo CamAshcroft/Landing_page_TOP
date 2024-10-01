@@ -43,7 +43,7 @@ li a {
     background-color: #1F2937;
     padding-left: 350px;
     padding-right: 350px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     display:flex;
     justify-content: space-between;
 }
@@ -84,7 +84,7 @@ li a {
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .top-header {
@@ -184,9 +184,15 @@ li a {
     font-weight: 700;
     color: #F9FAF8;
     font-size: 14px;
-    width: 100px;
+    width: 125px;
 }
 
 .footer {
+    display: flex;
     background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #F9FAF8;
 }
